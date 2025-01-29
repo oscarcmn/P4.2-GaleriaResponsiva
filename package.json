@@ -2,7 +2,6 @@
   "name": "p4-2-galeriaresponsiva",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://oscarcmn.github.io/P4.2-GaleriaResponsiva/",
   "type": "module",
   "scripts": {
     "dev": "vite",

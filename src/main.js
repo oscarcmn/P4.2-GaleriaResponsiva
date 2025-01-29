@@ -18,13 +18,13 @@ for (let i = 1; i <= totalImages; i++) {
   const col = document.createElement("div");
   col.className = "col-xs-12 col-sm-6 col-md-6 col-xl-3 d-flex";
 
-  const small1x = `./src/output-adv/${i}-small-1x..jpg`;
-  const small2x = `./src/output-adv/${i}-small-2x..jpg`;
-  const medium1x = `./src/output-adv/${i}-medium-1x..jpg`;
-  const medium2x = `./src/output-adv/${i}-medium-2x..jpg`;
-  const large1x = `./src/output-adv/${i}-large-1x..jpg`;
-  const large2x = `./src/output-adv/${i}-large-2x..jpg`;
-  const xlarge2x = `./src/output-adv/${i}-xlarge-2x..jpg`;
+  const small1x = `./output-adv/${i}-small-1x..jpg`;
+  const small2x = `./output-adv/${i}-small-2x..jpg`;
+  const medium1x = `./output-adv/${i}-medium-1x..jpg`;
+  const medium2x = `./output-adv/${i}-medium-2x..jpg`;
+  const large1x = `./output-adv/${i}-large-1x..jpg`;
+  const large2x = `./output-adv/${i}-large-2x..jpg`;
+  const xlarge2x = `./output-adv/${i}-xlarge-2x..jpg`;
 
   col.innerHTML = `
         <div>
